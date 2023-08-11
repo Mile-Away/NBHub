@@ -3,6 +3,7 @@ import { defaultTheme } from "vuepress";
 import { navbarEn, navbarZh } from "./configs/navbar/index.js";
 import { sidebarEn, sidebarZh } from "./configs/sidebar/index.js";
 
+
 export default hopeTheme({
   hostname: "",
 
@@ -130,7 +131,7 @@ export default hopeTheme({
     },
     
     git: true,
-    
+
     readingTime: {
       wordPerMinute: 200,
     },
