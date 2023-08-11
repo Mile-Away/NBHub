@@ -30,9 +30,12 @@ export default hopeTheme({
       footer: "",
 
       displayFooter: true,
+ 
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
+        contributors: "Contributors",
+        lastUpdated: "Last Updated",
       },
     },
 
@@ -46,13 +49,15 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebarZh,
 
-      footer: "默认页脚",
+      footer: "",
 
       displayFooter: true,
 
       // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
+        contributors: "贡献者",
+        lastUpdated: "上次更新",
       },
     },
   },
@@ -123,7 +128,12 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: false,
     },
-
+    
+    git: true,
+    
+    readingTime: {
+      wordPerMinute: 200,
+    },
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
