@@ -5,13 +5,13 @@ heroImageDark: /logo-dark.svg
 heroText: Notebook Hub
 bgImage: cover-light.jpg
 bgImageDark: cover-dark.jpg
-tagline: 开源、共建、共享 Notebook｜让知识跑起来 🏃
+tagline: Open Source｜Let Knowledge Run 🏃
 heroFullScreen: true
 actions:
-  - text: 关于 NBHub
+  - text: About NBHub
     link: /NBHub/ABOUT.md
     type: primary
-  - text: 在线运行
+  - text: Notebook Online
     link: https://nb.bohrium.dp.tech
     type: secondary
 features:
