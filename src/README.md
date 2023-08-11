@@ -4,7 +4,7 @@ heroImage: /logo-light.svg
 heroImageDark: /logo-dark.svg
 heroText: Notebook Hub
 bgImage: cover-light.jpg
-bgImageDark: 2.jpg
+bgImageDark: cover-dark.jpg
 tagline: 开源、共建、共享 Notebook｜让知识跑起来 🏃
 heroFullScreen: true
 actions:
