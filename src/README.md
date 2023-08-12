@@ -16,20 +16,23 @@ actions:
     type: secondary
 features:
 - title: AI4S&AIGC
-  details: 分享 AI4S & AIGC 最新动态
-- title: 开源共享
-  details: 轻松访问 GitHub 项目获得源文件
-- title: 编辑精选
-  details: 精心挑选的优质 Notebook 文档
-- title: 致谢
-  details: 深势科技 DP Technology
-- title: 致谢
-  details: Bohrium Notebook 在线平台
-- title: 致谢
+  details: Share news about AI4S & AIGC
+- title: Free Share
+  details: Easy to get source from  GitHub 
+- title: Editor's Pick
+  details: Read excellent Notebook Doc
+- title: Credit
+  details: DP Technology
+- title: Credit
+  details: Bohrium Notebook
+- title: Credit
   details: ……
 footer: GNU3.0 Licensed | Copyright © 2023 NBHub
 copyright: false
 # footerHtml: true
 ---
 
-### 让学习，插上翅膀 🪽
+### As easy as 1, 2, 3
+```python
+print("Hello World!")
+```

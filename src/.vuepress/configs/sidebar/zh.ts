@@ -4,32 +4,114 @@ export const sidebarZh: SidebarConfig = {
   '/zh/NBHub/': [
     {
       text: 'NBHub 创刊号',
+      link: 'ABOUT.md',
+    },
+    // {
+    //   text: 'NBHub 投稿',
+    //   link: 'submission.md',
+    // },
+    // {
+    //   text: 'Bohrium 使用指南',
+    //   link: 'submission.md',
+    // },
+  ],
+
+  '/zh/Science/FP/': [
+    {
+      text: '密度泛函理论（DFT）',
+      link: 'DFT/',
       children: [
-          'ABOUT.md',
+
       ],
     },
+
     {
-      text: '系列教程',
-      link: 'Tutorial/',
-      // collapsible: false,
+      text: '紧束缚模型（TB）',
+      link: 'TB/',
       children: [
-         'Tutorial/TBPLaS.md',
-         'Tutorial/LiCl_DP_Tutorial.md'
+          'TB/DeepTB.md',
+          'TB/TBPLaS.md',
       ],
     },
+
+  ],
+
+  '/zh/Science/MD/': [
     {
-      text: '先进实践',
-      link: 'Practice/',
+      text: '深度势能分子动力学',
+      link: 'DPMD/',
       children: [
-         'Practice/当我们说起神经网络的等变性，我们在谈论什么.md',
+        "DPMD/LiCl_DP_Tutorial.md",
       ],
     },
+
     {
-      text: '前沿知识',
-      link: 'Frontiers/',
+      text: '经典分子动力学',
+      link: 'LAMMPS/',
       children: [
-        'Frontiers/0_ChatGPT_Prompt_Engineering_Guide_ch.md',
-      ]
+
+      ],
     },
+
+  ],
+
+  '/zh/Science/CAX/': [
+    {
+      text: '密度泛函理论（DFT）',
+      link: 'DFT/',
+      children: [
+
+      ],
+    },
+
+    {
+      text: '紧束缚模型（TB）',
+      link: 'TB/',
+      children: [
+          'TB/DeepTB.md',
+          'TB/TBPLaS.md',
+      ],
+    },
+
+  ],
+
+  '/zh/AI/CV/': [
+    {
+      text: '密度泛函理论（DFT）',
+      link: 'DFT/',
+      children: [
+
+      ],
+    },
+
+    {
+      text: '紧束缚模型（TB）',
+      link: 'TB/',
+      children: [
+          'TB/DeepTB.md',
+          'TB/TBPLaS.md',
+      ],
+    },
+    
+  ],
+
+  '/zh/AI/Tutorial/': [
+    {
+      text: '神经网络等变性',
+      // link: 'DFT/',
+      children: [
+        "当我们说起神经网络的等变性，我们在谈论什么.md"
+      ],
+    },
+
+    // {
+    //   text: '紧束缚模型（TB）',
+    //   link: 'TB/',
+    //   children: [
+    //       'TB/DeepTB.md',
+    //       'TB/TBPLaS.md',
+    //   ],
+    // },
+    
   ],
 }

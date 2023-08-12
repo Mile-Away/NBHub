@@ -10,66 +10,104 @@ export const navbarEn = navbar([
     link: "/NBHub/ABOUT.md",
   },
   {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/NBHub/",
+    text: "Science",
+    icon: "function",
+    prefix: "/Science/",
     children: [
       {
-        text: "Tutorial",
+        text: "Nano-Scale",
+        // icon: "lightbulb",
+        prefix: "FP/",
+        children: [
+          { 
+            text: "Density Fuctional Theory", 
+            // icon: "ellipsis", 
+            link: "DFT/" 
+          },
+          { 
+            text: "TB", 
+            // icon: "ellipsis", 
+            link: "TB/" 
+          },
+
+        ],
+      },
+      {
+        text: "Molucar-Scale",
+        // icon: "lightbulb",
+        prefix: "MD/",
+        children: [
+        
+          { 
+            text: "深度势能分子动力学", 
+            link: "DPMD/" 
+          },
+
+        ],
+      },
+
+      {
+        text: "Macro-Scale",
+        // icon: "lightbulb",
+        prefix: "CAX/",
+        children: [
+        
+          { 
+            text: "", 
+            icon: "underscore", 
+            link: "" 
+          },
+
+        ],
+      },
+    ]
+  },
+  
+  {
+    text: "AI",
+    icon: "react",
+    prefix: "/AI/",
+    children: [
+      { 
+        text: "Tutorial", 
         link: "Tutorial/",
       },
-      {
-        text: "Practice",
-        link: "Practice/",
+      { 
+        text: "NLP", 
+        prefix: "NLP/",
+        children: [
+          { 
+            text: "ChatGPT", 
+            // icon: "ellipsis", 
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
       },
-      {
-        text: "Frontiers",
-        link: "Frontiers/",
+      { 
+        text: "CV", 
+        prefix: "CV/",
+        children: [
+          { 
+            text: "Stable Diffusion", 
+            // icon: "ellipsis", 
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
       },
-      // {
-      //   text: "Tutorial",
-      //   // icon: "lightbulb",
-      //   prefix: "Tutorial/",
-      //   children: [
-        
-      //     { 
-      //       text: "TBPLaS", 
-      //       // icon: "ellipsis", 
-      //       link: "TBPLas.md" },
-
-      //   ],
-      // },
-      // {
-      //   text: "Practice",
-      //   // icon: "lightbulb",
-      //   prefix: "Practice/",
-      //   children: [
-        
-      //     { 
-      //       text: "当我们说起神经网络的等变性，我们在谈论什么", 
-      //       // icon: "ellipsis", 
-      //       link: "当我们说起神经网络的等变性，我们在谈论什么.md.md" },
-
-      //   ],
-      // },
-      // {
-      //   text: "Frontiers",
-      //   // icon: "lightbulb",
-      //   prefix: "Frontiers/",
-      //   children: [
-        
-      //     { 
-      //       text: "ChatGPT", 
-      //       // icon: "ellipsis", 
-      //       link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md" },
-
-      //   ],
-      // },
     ],
   },
+
   {
-    text: "Notebook ",
-    icon: "book",
-    link: "https://nb.bohrium.dp.tech",
+    text: "Others",
+    icon: "others",
+    prefix: "/Others/",
+    children: [
+      { 
+        text: "Python 基础", 
+        // icon: "ellipsis", 
+        link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md" 
+      },
+
+    ],
   },
 ]);

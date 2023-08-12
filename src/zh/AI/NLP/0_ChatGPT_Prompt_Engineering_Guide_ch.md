@@ -6,7 +6,6 @@
 
 ## 1. 安装 bohrium-sdk
 
-
 ```bash
 pip install -Uqq bohrium-sdk -i https://pypi.org/project
 ```

@@ -12,9 +12,16 @@ export default hopeTheme({
     url: "https://nbhub.tech",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
+
+  // iconAssets: [
+  //   // "/base/my/font-icon/resource.js",
+  //   // "https://example/my/fonr-icon/resouce.css",
+  //   "iconify",
+  // ],
 
   logo: "/logo-2.svg",
+  logoDark: "/logo-2.svg",
 
   repo: "Q-Query/NBHub",
 
@@ -87,7 +94,7 @@ export default hopeTheme({
     },
 
     // turn off default catalog 
-    autoCatalog: false,
+    autoCatalog: true,
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
