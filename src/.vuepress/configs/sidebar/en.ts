@@ -3,13 +3,13 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const sidebarEn: SidebarConfig = {
   '/NBHub/': [
     {
-      text: 'NBHub 创刊号',
+      text: 'NBHub Foreword',
       link: 'ABOUT.md',
     },
-    // {
-    //   text: 'NBHub 投稿',
-    //   link: 'submission.md',
-    // },
+    {
+      text: 'Contribute to NBHub',
+      link: 'Contribute.md',
+    },
     // {
     //   text: 'Bohrium 使用指南',
     //   link: 'submission.md',
