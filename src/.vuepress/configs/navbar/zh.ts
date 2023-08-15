@@ -15,8 +15,8 @@ export const navbarZh = navbar([
     prefix: "/zh/Science/",
     children: [
       {
-        text: "第一性原理（电子尺度）",
-        // icon: "lightbulb",
+        text: "？第一性原理（电子尺度）",
+        // link: "FP/",
         prefix: "FP/",
         children: [
           { 
@@ -39,8 +39,18 @@ export const navbarZh = navbar([
         children: [
         
           { 
-            text: "深度势能分子动力学", 
+            text: "DPMD｜深度势能分子动力学", 
             link: "DPMD/" 
+          },
+          { 
+            text: "AIMD｜从头算分子动力学", 
+            // icon: "ellipsis", 
+            link: "TB/" 
+          },
+          { 
+            text: "CMD｜经典分子动力学", 
+            // icon: "ellipsis", 
+            link: "TB/" 
           },
 
         ],
@@ -69,10 +79,6 @@ export const navbarZh = navbar([
     prefix: "/zh/AI/",
     children: [
       { 
-        text: "教程", 
-        link: "Tutorial/",
-      },
-      { 
         text: "自然语言处理", 
         prefix: "NLP/",
         children: [
@@ -98,16 +104,70 @@ export const navbarZh = navbar([
   },
 
   {
-    text: "更多工具",
+    text: "系列教程",
     icon: "others",
-    prefix: "zh/Others/",
+    prefix: "/zh/Tutorial/",
     children: [
       { 
-        text: "Python 基础", 
+        text: "基础教程", 
         // icon: "ellipsis", 
-        link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md" 
+        prefix: "/",
+        children: [
+          {
+            text: "Linux 基础教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "Python 基础教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "机器学习教程", 
+        // icon: "ellipsis", 
+        prefix: "Series/",
+        children: [
+          {
+            text: "SKLearn 教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "PyTorch 教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "科学计算教程", 
+        // icon: "ellipsis", 
+        prefix: "Series/",
+        children: [
+          {
+            text: "VASP 教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "LAMMPS 教程",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "更多", 
+        // icon: "ellipsis", 
+        prefix: "Others/",
+        children: [
+          "当我们说起神经网络的等变性，我们在谈论什么.md",
+
+        ], 
       },
 
     ],
   },
+  // {
+  //   text: "在线运行",
+  //   icon: "edit",
+  //   link: "https://nb.bohrium.dp.tech",
+  // }
 ]);

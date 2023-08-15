@@ -39,7 +39,7 @@ export const navbarEn = navbar([
         children: [
         
           { 
-            text: "深度势能分子动力学", 
+            text: "Deep Potential Molecular Dynamics", 
             link: "DPMD/" 
           },
 
@@ -69,10 +69,6 @@ export const navbarEn = navbar([
     prefix: "/AI/",
     children: [
       { 
-        text: "Tutorial", 
-        link: "Tutorial/",
-      },
-      { 
         text: "NLP", 
         prefix: "NLP/",
         children: [
@@ -88,9 +84,9 @@ export const navbarEn = navbar([
         prefix: "CV/",
         children: [
           { 
-            text: "Stable Diffusion", 
+            text: "QR-Code", 
             // icon: "ellipsis", 
-            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+            link: "qrcode-diffusion.md",
           },
         ],
       },
@@ -98,14 +94,67 @@ export const navbarEn = navbar([
   },
 
   {
-    text: "Others",
+    text: "Tutorial",
     icon: "others",
-    prefix: "/Others/",
+    prefix: "/Tutorial/",
     children: [
       { 
-        text: "Python 基础", 
+        text: "(Preparing...)Basic", 
         // icon: "ellipsis", 
-        link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md" 
+        prefix: "/",
+        children: [
+          {
+            text: "Linux Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "Python Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "(Preparing...)Machine Learning", 
+        // icon: "ellipsis", 
+        prefix: "Series/",
+        children: [
+          {
+            text: "SKLearn Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "PyTorch Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "(Preparing...)Science Computing", 
+        // icon: "ellipsis", 
+        prefix: "Series/",
+        children: [
+          {
+            text: "VASP Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+          {
+            text: "LAMMPS Tutorial",
+            link: "0_ChatGPT_Prompt_Engineering_Guide_ch.md",
+          },
+        ],
+      },
+      { 
+        text: "Others", 
+        // icon: "ellipsis", 
+        prefix: "Others/",
+        children: [
+          {
+            text: "Neural Network Equivariance",
+            link: "当我们说起神经网络的等变性，我们在谈论什么.md",
+          },
+          
+
+        ], 
       },
 
     ],

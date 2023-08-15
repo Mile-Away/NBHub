@@ -7,9 +7,18 @@ import { sidebarEn, sidebarZh } from "./configs/sidebar/index.js";
 export default hopeTheme({
   hostname: "",
 
+  navbarIcon: true,
+
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language", "Repo", "Outlook", "Search", ],
+  },
+
   author: {
     name: "NBHub",
     url: "https://nbhub.tech",
+    email: "Q-Query@outlook.com",
   },
 
   iconAssets: "iconfont",
@@ -21,9 +30,14 @@ export default hopeTheme({
   // ],
 
   logo: "/logo-2.svg",
+
   logoDark: "/logo-2.svg",
 
+  favicon: "/favicon.ico",
+
   repo: "Q-Query/NBHub",
+  repoLabel: "GitHub",
+  // repoDisplay: true,
 
   docsDir: "src",
 
@@ -94,7 +108,7 @@ export default hopeTheme({
     },
 
     // turn off default catalog 
-    autoCatalog: true,
+    autoCatalog: false,
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -140,7 +154,7 @@ export default hopeTheme({
     git: true,
 
     readingTime: {
-      wordPerMinute: 200,
+      wordPerMinute: 233,
     },
     // uncomment these if you want a pwa
     // pwa: {

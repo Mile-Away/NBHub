@@ -17,11 +17,19 @@ export const sidebarZh: SidebarConfig = {
   ],
 
   '/zh/Science/FP/': [
+    
+    {
+      text: '第一性原理（电子尺度）？',
+      link: 'README.md',
+      children: [
+        'FP_introduction.md',
+      ],
+    },
     {
       text: '密度泛函理论（DFT）',
       link: 'DFT/',
       children: [
-
+        
       ],
     },
 

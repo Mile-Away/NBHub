@@ -12,12 +12,12 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "NBHub",
-      description: "A docs demo for vuepress-theme-hope",
+      description: "Let Knowledge Run!",
     },
     "/zh/": {
       lang: "zh-CN",
       title: "NBHub",
-      description: "vuepress-theme-hope 的文档演示",
+      description: "让知识跑起来！",
     },
   },
 

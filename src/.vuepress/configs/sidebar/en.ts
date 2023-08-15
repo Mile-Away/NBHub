@@ -16,42 +16,53 @@ export const sidebarEn: SidebarConfig = {
     // },
   ],
 
-  '/Science/FP/': [
+  '/Science/FP/DFT/': [
     {
-      text: '密度泛函理论（DFT）',
-      link: 'DFT/',
+      text: 'ABACUS',
+      // link: 'DFT/',
       children: [
-
-      ],
-    },
-
-    {
-      text: '紧束缚模型（TB）',
-      link: 'TB/',
-      children: [
-          'TB/DeepTB.md',
-          'TB/TBPLaS.md',
+        'AbacusUnitTesting.md',
+        'ABACUS_Quick_Start_Tutorial.md',
       ],
     },
 
   ],
 
-  '/Science/MD/': [
+  '/Science/FP/TB/': [
+
     {
-      text: '深度势能分子动力学',
-      link: 'DPMD/',
+      text: 'DeepTB',
+      // link: 'TB/',
       children: [
-        "DPMD/LiCl_DP_Tutorial.md",
+        'DeepTB.md',
+      ],
+    },
+    {
+      text: 'TBPLaS',
+      // link: 'TB/',
+      children: [
+          'TBPLaS.md',
       ],
     },
 
-    {
-      text: '经典分子动力学',
-      link: 'LAMMPS/',
-      children: [
+  ],
 
+  '/Science/MD/DPMD/': [
+    {
+      text: '',
+      // prefix: 'DPMD/',
+      children: [
+        "LiCl_DP_Tutorial.md",
       ],
     },
+
+    // {
+    //   text: '经典分子动力学',
+    //   link: 'LAMMPS/',
+    //   children: [
+
+    //   ],
+    // },
 
   ],
 
@@ -76,31 +87,32 @@ export const sidebarEn: SidebarConfig = {
   ],
 
   '/AI/CV/': [
-    {
-      text: '密度泛函理论（DFT）',
-      link: 'DFT/',
-      children: [
+    "qrcode-diffusion.md",
+    // {
+    //   text: '密度泛函理论（DFT）',
+    //   link: 'DFT/',
+    //   children: [
 
-      ],
-    },
+    //   ],
+    // },
 
-    {
-      text: '紧束缚模型（TB）',
-      link: 'TB/',
-      children: [
-          'TB/DeepTB.md',
-          'TB/TBPLaS.md',
-      ],
-    },
+    // {
+    //   text: '紧束缚模型（TB）',
+    //   link: 'TB/',
+    //   children: [
+    //       'TB/DeepTB.md',
+    //       'TB/TBPLaS.md',
+    //   ],
+    // },
     
   ],
 
-  '/AI/Tutorial/': [
+  '/AI/NLP/': [
     {
-      text: '神经网络等变性',
+      text: 'ChatGPT',
       // link: 'DFT/',
       children: [
-        "当我们说起神经网络的等变性，我们在谈论什么.md"
+        "0_ChatGPT_Prompt_Engineering_Guide_ch.md"
       ],
     },
 

@@ -11,7 +11,7 @@
 
 ## 背景
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1005030220309075-fx1_lrg.jpg" alt="LiCl" width="600">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1005030220309075-fx1_lrg.jpg" alt="LiCl">
 
 在本教程中，我们将以 LiCl 熔体为例，详细介绍深度势能（Deep Potential）模型的训练和应用。深度势能模型是一种基于机器学习的方法，用于精确描述原子间相互作用的势能面。通过训练这种模型，我们可以高效地模拟材料的结构、动力学和热力学性质。具体包括以下示例：
 

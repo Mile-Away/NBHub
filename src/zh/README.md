@@ -11,7 +11,7 @@ actions:
   - text: 关于 NBHub
     link: /NBHub/ABOUT.md
     type: primary
-  - text: 在线运行 ✈
+  - text: 在线运行
     # icon: ""
     link: https://nb.bohrium.dp.tech
     type: secondary
