@@ -25,7 +25,7 @@ export const navbarEn = navbar([
             link: "DFT/" 
           },
           { 
-            text: "TB", 
+            text: "Tight Binding Model", 
             // icon: "ellipsis", 
             link: "TB/" 
           },
