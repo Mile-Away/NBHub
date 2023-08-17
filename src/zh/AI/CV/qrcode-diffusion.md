@@ -143,7 +143,7 @@ qrcode_image
 ```
 
     
-![png](output_21_0.png)
+<!-- ![png](output_21_0.png) -->
     
 
 ## 第四步：生成艺术化二维码
@@ -239,7 +239,7 @@ image
 
 
     
-![png](output_29_1.png)
+<!-- ![png](output_29_1.png) -->
     
 
 

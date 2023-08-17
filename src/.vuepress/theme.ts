@@ -5,7 +5,8 @@ import { sidebarEn, sidebarZh } from "./configs/sidebar/index.js";
 
 
 export default hopeTheme({
-  hostname: "",
+  hostname: "0.0.0.0",
+  // port: 8080, 
 
   navbarIcon: true,
 

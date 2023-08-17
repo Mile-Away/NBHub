@@ -842,7 +842,7 @@ plt.show()
 
 
     
-![png](output_29_0.png)
+# 访问源网站查看图片
     
 
 
@@ -901,7 +901,7 @@ print(f"Diffusion Coefficients of Cl-: {Diff2} m^2/s")
 
 
     
-![png](output_33_0.png)
+# 访问源网站查看图片
     
 
 
@@ -5237,7 +5237,7 @@ plt.show()
 
 
     
-![png](output_68_0.png)
+# 访问源网站查看图片
     
 
 
@@ -5664,7 +5664,7 @@ plt.show()
 
 
     
-![png](output_95_0.png)
+# 访问源网站查看图片
     
 
 
@@ -6047,7 +6047,7 @@ plt.show()
 
 
     
-![png](output_107_0.png)
+# 访问源网站查看图片
     
 
 
@@ -6135,7 +6135,7 @@ plt.show()
 
 
     
-![png](output_116_0.png)
+# 访问源网站查看图片
     
 
 
@@ -6177,7 +6177,7 @@ plt.show()
 
 
     
-![png](output_118_0.png)
+# 访问源网站查看图片
     
 
 
@@ -7148,7 +7148,7 @@ jump            licl.in
 我们可以利用 chapter1 中提供的 Python 脚本，从 licl.rdf 和 licl.msd 中获得径向分布函数和离子自扩散系数。
 
 预测径向分布函数如下：
-![rdf_all_temperatures.png](attachment:35302fbd-8e3f-44ff-8be8-18e802e8877c.png)
+
 
 表5.2 不同温度下，LiCl熔体的中Li-Li，Li-Cl和Cl-Cl离子对径向分布函数第一峰的位置。
 | T(K) |Li-Li   |Li-Cl   |Cl-Cl   |
@@ -7159,7 +7159,7 @@ jump            licl.in
 | 1200 | 3.605  |2.345   |3.745   |
 
 预测均方位移和离子扩散系数如下：
-![msd_all_temperatures.png](attachment:c68d0cea-c93a-4c23-b4f2-78e4c39182a6.png)
+
 
 表5.3 不同温度下，LiCl 熔体的中 $Li^{+}$ 和 $Cl^{-}$ 离子的扩散系数 $\left(m^2/s \times 10^{-9}\right)$。
 | T(K) |$D_{Li^{+}}$ | $D_{Cl^{-}}$|
