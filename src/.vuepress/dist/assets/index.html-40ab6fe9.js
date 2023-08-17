@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as n,b as e,d as o}from"./app-9e88b545.js";const r={},c=e("h1",{id:"nbhub",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#nbhub","aria-hidden":"true"},"#"),o(" NBHub")],-1),s=[c];function d(_,i){return a(),n("div",null,s)}const f=t(r,[["render",d],["__file","index.html.vue"]]);export{f as default};
