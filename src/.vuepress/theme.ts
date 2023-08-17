@@ -8,6 +8,9 @@ export default hopeTheme({
   hostname: "0.0.0.0",
   // port: 8080, 
 
+  disableSelection: true,
+  disableCopy: true,
+
   navbarIcon: true,
 
   navbarLayout: {
@@ -84,6 +87,8 @@ export default hopeTheme({
       },
     },
   },
+
+
 
   encrypt: {
     config: {

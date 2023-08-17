@@ -6,6 +6,10 @@ export const sidebarZh: SidebarConfig = {
       text: 'NBHub 创刊号',
       link: 'ABOUT.md',
     },
+    {
+      text: '向 NBHub 投稿',
+      link: 'Contribute.md',
+    },
     // {
     //   text: 'NBHub 投稿',
     //   link: 'submission.md',
